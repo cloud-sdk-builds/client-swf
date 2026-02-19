@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-swf`](https://www.npmjs.com/package/@aws-sdk/client-swf/v/3.476.0).
+[`@aws-sdk/client-swf`](https://www.npmjs.com/package/@aws-sdk/client-swf/v/3.477.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-swf@3.476.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-swf@3.477.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-CTlLQ+4xqIWK9NAKIcvbzLryUxp+RNBTQE6/mFegzEi36A+isu+E+CzT4imKItZC
+sha384-zBC4KLW+bvNXvAJseeGwHU3+6QGxGPtFxqewBgS0M6GIMooCB1B9MKwR2IePDjHK
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-swf": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-swf@3.476.0/index.min.mjs"
+            "@aws-sdk/client-swf": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-swf@3.477.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-swf@3.476.0/index.min.mjs": "sha384-CTlLQ+4xqIWK9NAKIcvbzLryUxp+RNBTQE6/mFegzEi36A+isu+E+CzT4imKItZC"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-swf@3.477.0/index.min.mjs": "sha384-zBC4KLW+bvNXvAJseeGwHU3+6QGxGPtFxqewBgS0M6GIMooCB1B9MKwR2IePDjHK"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-swf": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-swf@3.476.0/index.min.mjs"
+                        "@aws-sdk/client-swf": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-swf@3.477.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-swf@3.476.0/index.min.mjs": "sha384-CTlLQ+4xqIWK9NAKIcvbzLryUxp+RNBTQE6/mFegzEi36A+isu+E+CzT4imKItZC"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-swf@3.477.0/index.min.mjs": "sha384-zBC4KLW+bvNXvAJseeGwHU3+6QGxGPtFxqewBgS0M6GIMooCB1B9MKwR2IePDjHK"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.476.0`)
+* Always pin to a specific version (`@3.477.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-swf/blob/refs/tags/3.476.0/LICENSE
+https://github.com/cloud-sdk-builds/client-swf/blob/refs/tags/3.477.0/LICENSE
 ```
 
 ---
